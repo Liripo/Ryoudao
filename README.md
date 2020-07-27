@@ -7,6 +7,7 @@ devtools::install_github("Liripo/Ryoudao")
 
 ## 使用示例，就一个函数
 ```R
+#默认自动识别使用系统，当然你可以指定你的操作系统，比如
 Rtran(q = "爱因斯坦"，system = "windows")
 ### 或者
 library(ggplot2)

@@ -12,7 +12,7 @@
 #' @author Liripo
 #' @export Rtran
 #' @examples
-#' Rtran(q = "爱因斯坦",system = "windows")
+#' Rtran(q = "\u7231\u56e0\u65af\u5766",system = "windows")
 #'
 #' data <- c("math","english","chinese")
 #' tran <- sapply(data,Rtran,from = "en",to = "zh-CHS",system = "WINDOWS")
